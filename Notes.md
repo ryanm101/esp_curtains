@@ -62,3 +62,7 @@ flash_id
 ![alt text](images/ESP_ChipCloseup.png "Closeup of ESP Chip")
 ![alt text](images/Underneath_ESP.png "Top of mainboard with ESP chip removed")
 ![alt text](images/ESP_Chip_Reverse.png "Reverse Side of Chip")
+
+## Communications notes
+
+1. Looks like the ESP talks to STM8S003F3 via Serial
