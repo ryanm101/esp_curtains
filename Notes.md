@@ -1,4 +1,4 @@
-
+#
 
 ## ESPTool Outputs
 
@@ -34,6 +34,7 @@ Chip_ID
 ```
 
 flash_id
+
 ```text
     esptool.py v2.5.0
     Found 2 serial ports
@@ -63,6 +64,12 @@ flash_id
 ![alt text](images/Underneath_ESP.png "Top of mainboard with ESP chip removed")
 ![alt text](images/ESP_Chip_Reverse.png "Reverse Side of Chip")
 
+![alt text](images/Hall_effect_sensor.jpg "Hall Effect Sensor")
+![alt text](images/Motor_side1.jpg "Side A of Motor")
+![alt text](images/Motor_side2.jpg "Side B of Motor")
+![alt text](images/Motor_Connector_power.jpg "Motor power connectors")
+
 ## Communications notes
 
-1. Looks like the ESP talks to STM8S003F3 via Serial
+- Looks like the ESP talks to STM  8S003F3 via Serial.
+- Motor uses Hall effect sensor and 8 magnets around edge of motor to calculate position and movement.
